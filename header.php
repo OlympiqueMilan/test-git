@@ -8,7 +8,6 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" type="text/css" />
 	<?php wp_head(); ?>
-	<title> <?php bloginfo('name');?> - <?php bloginfo('description');?> </title>
 	<aside>
    <?php get_sidebar();?>
    </aside>
@@ -21,11 +20,10 @@
 <body>
 
     <header>
-	
+
         <!-- en-tête -->
             <h1>Page design</h1>
         <nav>
         <!-- menu principal -->
         </nav>
-     </header>      
-	
+     </header>
